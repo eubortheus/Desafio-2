@@ -1,0 +1,97 @@
+.iframe__menu {
+    width: 100%;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.iframe__map{
+    height: 450px;
+    width: 50%;
+}
+
+.navbar__div {
+    flex-wrap: nowrap;
+    display: flex;
+    position: relative;
+    background-color: #cc4646;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar__div__menu {
+    flex-wrap: nowrap;
+    display: flex;
+    position: relative;
+    background-color: #cc4646;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar__item {
+    vertical-align: baseline;
+    padding: 5px 10px;
+}
+
+.navbar__class {
+    display: flex; 
+    padding: 10px 0px;
+}
+
+.navbar__link {
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Italiana';
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar__link__menu {
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Italiana';
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar__logo {
+    height: 80px;
+    position: right;
+}
+
+.carousel__div {
+    padding-top: 5px;
+    width: 50%;
+    display: inline-block;
+}
+
+.carousel__image {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    object-position: 0 60%;
+    flex: none;
+    display: block;
+}
+
+.h1--font{
+    font-family: 'Italiana';
+    display: block;
+    text-align: center;
+}
+
+.map__content {
+    width: 50%;
+    float: right;
+    height: 450px;
+    padding-top: 5px;
+}
+
+.product__image {
+    height: 250px;
+    object-fit: cover;
+}
+
+.li__menu{
+    padding: 0px 50px;
+}

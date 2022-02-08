@@ -109,6 +109,16 @@
     text-shadow: 0.05em 0.05em 0.1em gray;
 }
 
+.h__menu--font {
+    font-family: 'Open Sans Condensed';
+    display: block;
+    text-align: center;
+    padding: 2px 0;
+    margin-bottom: 0px;
+    font-weight: bold;
+    text-shadow: 0.05em 0.05em 0.1em gray;
+}
+
 .h1__navbar--font{
     font-family: 'Italiana';
     display: block;
@@ -142,13 +152,18 @@
 
 .form--align {
     text-align: center;
+    display: flex;
+}
+
+.form--size {
+    width: 100%;
+    justify-content: center;
 }
 
 .div__footer{
     border: 2px solid #46cc46;
     margin: 5px;
     align-items: end;
-    background-color: #008000;
 }
 
 .h__footer{
@@ -159,4 +174,36 @@
 
 .a__footer{
     margin: 0 20px;
+}
+
+.input__container {
+    font-weight: var(--fonte-peso-input);
+    position: relative;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-sizing: border-box;
+}
+
+.input {
+    box-sizing: border-box;
+    border-bottom: 1px solid var(--cor-secundaria);
+    padding: 1.375rem 0.5rem 0.5rem;
+    height: 3.25rem;
+    width: 100%;
+}
+
+.fieldset__width {
+    width: 40%;
+    margin: 0 10px;
+}
+
+.button__form {
+    width: 30%;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    align-self: center;
+    margin-left: 35%;
+    height: 50px;
 }
